@@ -27,11 +27,12 @@ h1{
     color: rgb(112, 109, 109);
     margin: 30px ;
 }
-h2{
+.half-width h2{
     font-size: 30px;
     color: rgb(88, 86, 86);
+    margin-left: 30px ;
 }
-p{
+.half-width p{
     padding-bottom: 40px;
     margin-left: 30px ;
 }
@@ -59,6 +60,7 @@ p{
     width: 50%;
     padding: 0;
 }
+
 #about-me{
     background-image: url(images/shapes/7.png);
     margin-bottom: 70px;
@@ -80,7 +82,6 @@ p{
     width: 100%;
 }
 .food-recipie{
-    text-align: center;
     width: 33.3%;
     border-radius: 30px;
     margin-left: 5%;
@@ -95,6 +96,7 @@ p{
     width: 900px;
     padding-left: 200px;
     padding-right: 150px;
+    padding-bottom: 40px;
     margin: 40px;
     border-radius: 20px;
     box-shadow:10px 10px 10px rgb(189, 186, 186) ;
